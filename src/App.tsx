@@ -5,6 +5,8 @@ import StyledMain from "./components/StyledMain";
 import StyledCard from "./components/StyledCard";
 import BasicSpringExample from "./components/ BasicSpringExample";
 import VariantsExample from "./components/VariantsExample";
+import GesturesExample from "./components/GesturesExample";
+import DragExample from "./components/DragExample";
 
 function App() {
   return (
@@ -14,6 +16,12 @@ function App() {
       </StyledCard>
       <StyledCard>
         <VariantsExample />
+      </StyledCard>
+      <StyledCard>
+        <GesturesExample />
+      </StyledCard>
+      <StyledCard>
+        <DragExample />
       </StyledCard>
     </StyledMain>
   );

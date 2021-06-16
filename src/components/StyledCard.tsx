@@ -5,7 +5,8 @@ const StyledCard = styled.div`
   background: linear-gradient(0.45turn, var(--primary), var(--accent));
   border-radius: 10px;
   display: flex;
-  height: 300px;
+  min-height: 300px;
+  height: 100%;
   justify-content: center;
   width: 100%;
 `;
