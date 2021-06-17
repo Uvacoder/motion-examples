@@ -5,7 +5,7 @@ const StyledMotionBox = styled(motion.div)`
   width: 100px;
   height: 100px;
   background: var(--white);
-  border-radius: 15px;
+  border-radius: 20%;
 `;
 
 export default StyledMotionBox;

@@ -5,6 +5,7 @@ const StyledMain = styled.main`
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
   min-height: 100vh;
   padding: 1rem;
   align-items: center;
