@@ -11,6 +11,7 @@ import DragExample from "./components/DragExample";
 import KeyframesExample from "./components/KeyframesExample";
 import MenuVariantsExample from "./components/MenuVariantsExample";
 import MotionValuesExample from "./components/MotionValuesExample";
+import MarqueeExample from "./components/MarqueeExample";
 
 function App() {
   return (
@@ -45,6 +46,10 @@ function App() {
 
       <StyledCard>
         <MotionValuesExample />
+      </StyledCard>
+
+      <StyledCard>
+        <MarqueeExample />
       </StyledCard>
     </StyledMain>
   );
