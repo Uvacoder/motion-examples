@@ -10,6 +10,7 @@ import GesturesExample from "./components/GesturesExample";
 import DragExample from "./components/DragExample";
 import KeyframesExample from "./components/KeyframesExample";
 import MenuVariantsExample from "./components/MenuVariantsExample";
+import MotionValuesExample from "./components/MotionValuesExample";
 
 function App() {
   return (
@@ -40,6 +41,10 @@ function App() {
 
       <StyledCard disableFlex>
         <MenuVariantsExample />
+      </StyledCard>
+
+      <StyledCard>
+        <MotionValuesExample />
       </StyledCard>
     </StyledMain>
   );
