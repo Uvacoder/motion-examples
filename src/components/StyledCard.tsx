@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
-const StyledCard = styled.div`
+const StyledCard = styled(motion.div)`
   align-items: center;
   background: linear-gradient(0.45turn, var(--primary), var(--accent));
   border-radius: 10px;
