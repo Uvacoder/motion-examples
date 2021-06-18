@@ -12,6 +12,7 @@ import KeyframesExample from "./components/KeyframesExample";
 import MenuVariantsExample from "./components/MenuVariantsExample";
 import MotionValuesExample from "./components/MotionValuesExample";
 import MarqueeExample from "./components/MarqueeExample";
+import ThreeDotsLoadingExample from "./components/ThreeDotsLoadingExample";
 
 function App() {
   return (
@@ -50,6 +51,10 @@ function App() {
 
       <StyledCard>
         <MarqueeExample />
+      </StyledCard>
+
+      <StyledCard>
+        <ThreeDotsLoadingExample />
       </StyledCard>
     </StyledMain>
   );
