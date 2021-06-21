@@ -13,6 +13,8 @@ import MenuVariantsExample from "./components/MenuVariantsExample";
 import MotionValuesExample from "./components/MotionValuesExample";
 import MarqueeExample from "./components/MarqueeExample";
 import ThreeDotsLoadingExample from "./components/ThreeDotsLoadingExample";
+import LayoutExample from "./components/LayoutExample";
+import SharedLayoutExample from "./components/SharedLayoutExample";
 
 function App() {
   return (
@@ -55,6 +57,14 @@ function App() {
 
       <StyledCard>
         <ThreeDotsLoadingExample />
+      </StyledCard>
+
+      <StyledCard>
+        <LayoutExample />
+      </StyledCard>
+
+      <StyledCard>
+        <SharedLayoutExample />
       </StyledCard>
     </StyledMain>
   );
